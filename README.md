@@ -1,4 +1,19 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
+
+## Links
+- **W&B project:** https://wandb.ai/dannypere11-ast/nyc_airbnb
+- **GitHub repository:** https://github.com/danny814/Project-Build-an-ML-Pipeline-Starter
+
+## Results
+- Best model: random forest, max_tfidf_features = 30, max_features = 0.33
+- Test set: MAE = $33.29, R² = 0.581
+- Top features: room_type and listing name (TF-IDF)
+
+## Releases
+- 1.0.0: first working pipeline (fails on sample2.csv due to listings outside NYC)
+- 1.0.1: adds a latitude/longitude filter in basic_cleaning; runs end to end on sample2.csv
+
+# Build an ML Pipeline for Short-Term Rental Prices in NYC
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 
 on the price of similar properties. Your company receives new data in bulk every week. The model needs 
