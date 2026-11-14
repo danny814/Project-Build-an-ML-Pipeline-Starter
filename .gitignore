@@ -147,3 +147,5 @@ random_forest_dir/
 multirun/
 *.log
 *.log
+rf_config.json
+src/basic_cleaning/clean_sample.csv
