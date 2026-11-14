@@ -12,6 +12,7 @@
 ## Releases
 - 1.0.0: first working pipeline (fails on sample2.csv due to listings outside NYC)
 - 1.0.1: adds a latitude/longitude filter in basic_cleaning; runs end to end on sample2.csv
+- 1.0.2: renamed artifacts (clean_data.csv, model_export) and added test_regression_model to main.py
 
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
 You are working for a property management company renting rooms and properties for short periods of 
